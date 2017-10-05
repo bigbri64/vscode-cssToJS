@@ -2,13 +2,17 @@
     "name": "csstojs",
     "displayName": "cssToJS",
     "description": "Convert css to js objects for use in React",
-    "version": "2.1.0",
+    "version": "1.0.0",
     "publisher": "rhystyers",
+    "author": {
+        "name": "Rhys Tyers"
+    },
+    "icon": "images/logo.png",
     "engines": {
         "vscode": "^1.16.0"
     },
     "categories": [
-        "Other"
+        "Formatters", "Other"
     ],
     "activationEvents": [
         "onCommand:extension.convertCSS"
@@ -34,5 +38,14 @@
         "vscode": "^1.1.5",
         "@types/node": "^7.0.43",
         "@types/mocha": "^2.2.42"
-    }
+    },
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "bugs": {
+        "url": "https://github.com/rhyst/vscode-cssToJS/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/rhyst/vscode-cssToJS.git"
+    },
+    "homepage": "https://github.com/rhyst/vscode-cssToJS/blob/master/README.md"
 }
