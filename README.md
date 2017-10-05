@@ -4,7 +4,7 @@
 
 Converts a selected block of css to js format. Good, for example, for copying styling from Chrome dev tools to a React CSS object.
 
-## How to use
+## How to use
 
 Highlight a some css like 
 
