@@ -18,6 +18,5 @@ Open your command pallete (cmd + shift + p on mac) and run the `Convert CSS` com
     textAlign: 'center',
     display: 'inline-flex',
 
-[Github](https://github.com/rhyst/vscode-cssToJS)
-
+[Github](https://github.com/rhyst/vscode-cssToJS)  
 [VSCode Marketplace](https://marketplace.visualstudio.com/items?itemName=rhystyers.csstojs)
