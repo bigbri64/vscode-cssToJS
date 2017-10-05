@@ -4,7 +4,11 @@
 
 Converts a selected block of css to js format. Good, for example, for copying styling from Chrome dev tools to a React CSS object.
 
-## How to use
+![GitLens preview](https://raw.githubusercontent.com/rhyst/cssToJS/master/images/csstojs-preview.gif)
+
+[https://github.com/rhyst/vscode-cssToJS](https://github.com/rhyst/vscode-cssToJS)
+
+## How to use
 
 Highlight a some css like 
 
