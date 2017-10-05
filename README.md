@@ -8,7 +8,7 @@ Converts a selected block of css to js format. Good, for example, for copying st
 
 [https://github.com/rhyst/vscode-cssToJS](https://github.com/rhyst/vscode-cssToJS)
 
-## How to use
+## How to use
 
 Highlight a some css like 
 
@@ -19,13 +19,3 @@ Open your command pallete (cmd + shift + p on mac) and run the `Convert CSS` com
 
     textAlign: 'center',
     display: 'inline-flex',
-
-## Release Notes
-
-### 1.1.0
-
-Better readme, clean up quick start stuff from repo
-
-### 1.0.0
-
-Initial release of cssToJS
