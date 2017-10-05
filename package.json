@@ -2,7 +2,7 @@
     "name": "csstojs",
     "displayName": "cssToJS",
     "description": "Convert css to js objects for use in React",
-    "version": "1.0.0",
+    "version": "2.1.0",
     "publisher": "rhystyers",
     "engines": {
         "vscode": "^1.16.0"
