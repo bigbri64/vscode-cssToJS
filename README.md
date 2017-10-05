@@ -19,4 +19,5 @@ Open your command pallete (cmd + shift + p on mac) and run the `Convert CSS` com
     display: 'inline-flex',
 
 [Github](https://github.com/rhyst/vscode-cssToJS)
+
 [VSCode Marketplace](https://marketplace.visualstudio.com/items?itemName=rhystyers.csstojs)
