@@ -8,7 +8,7 @@ Converts a selected block of css to js format. Good, for example, for copying st
 
 [https://github.com/rhyst/vscode-cssToJS](https://github.com/rhyst/vscode-cssToJS)
 
-## How to use
+## How to use
 
 Highlight a some css like 
 
