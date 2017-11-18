@@ -24,12 +24,12 @@ class CSSToJS {
                 let text = doc.getText(editor.selection);
                 console.log(text)
                 const reDeHyphenKey = /-(\w)(.*:)/g;
-                const reValue = /:\s*([\w-(),\s.%]*);?/g;
+                const reValue = /:\s*["']?([\w-(),\s.%#"']*)["']?;?/g;
                 text = text.replace(reDeHyphenKey, (m, p1, p2) => {
                     return p1.toUpperCase() + p2;
                 });
                 text = text.replace(reValue, (m, p1) => {
-                    return ': "' + p1 + '",'
+                    return ': "' + p1.replace(/([\"\'])/g,'\\'+'$1') + '",'
                 });
                 console.log(text);
                 editor.edit((builder) => {builder.replace(editor.selection, text)});
