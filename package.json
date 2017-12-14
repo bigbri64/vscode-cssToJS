@@ -12,7 +12,8 @@
         "vscode": "^1.16.0"
     },
     "categories": [
-        "Formatters", "Other"
+        "Formatters",
+        "Other"
     ],
     "activationEvents": [
         "onCommand:extension.convertCSS"
@@ -32,13 +33,14 @@
         "watch": "tsc -watch -p ./",
         "postinstall": "node ./node_modules/vscode/bin/install",
         "test": "npm run compile && node ./node_modules/vscode/bin/test",
-	"publish": "vsce publish"
+        "publish": "vsce publish"
     },
     "devDependencies": {
-        "typescript": "^2.5.3",
-        "vscode": "^1.1.5",
+        "@types/mocha": "^2.2.42",
         "@types/node": "^7.0.43",
-        "@types/mocha": "^2.2.42"
+        "typescript": "^2.5.3",
+        "vsce": "^1.35.0",
+        "vscode": "^1.1.5"
     },
     "license": "https://creativecommons.org/licenses/by/4.0/",
     "bugs": {
@@ -48,5 +50,6 @@
         "type": "git",
         "url": "https://github.com/rhyst/vscode-cssToJS.git"
     },
-    "homepage": "https://github.com/rhyst/vscode-cssToJS/blob/master/README.md"
+    "homepage": "https://github.com/rhyst/vscode-cssToJS/blob/master/README.md",
+    "dependencies": {}
 }
